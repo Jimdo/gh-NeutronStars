@@ -172,5 +172,6 @@ func main() {
 
 	r := mux.NewRouter()
 	r.HandleFunc("/feed/{user}.atom", handleUserFeed)
+	r.HandleFunc("/healthcheck", func(res http.ResponseWriter, r *http.Request) { res.WriteHeader(http.StatusNoContent) })
 	http.ListenAndServe(cfg.Listen, r)
 }
