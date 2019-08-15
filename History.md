@@ -1,3 +1,7 @@
+# 0.2.2 / 2019-08-15
+
+  * fix broken link in slack message
+
 # 0.2.1 / 2016-07-13
 
   * fix status 204 not recognized by ELB
