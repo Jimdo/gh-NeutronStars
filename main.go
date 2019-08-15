@@ -66,7 +66,6 @@ func getFeedEntries(ctx context.Context, repo string) (feedEntries, error) {
 
 	for i := range result.Entries {
 		result.Entries[i].Title = fmt.Sprintf("[%s] %s", repo, result.Entries[i].Title)
-		result.Entries[i].Link.Href = fmt.Sprintf("https://github.com%s", result.Entries[i].Link.Href)
 	}
 
 	return feedEntries(result.Entries), nil
