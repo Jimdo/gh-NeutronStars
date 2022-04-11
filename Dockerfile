@@ -1,7 +1,5 @@
 FROM golang:alpine
 
-MAINTAINER Knut Ahlers <knut@ahlers.me>
-
 ADD . /go/src/github.com/Luzifer/gh-NeutronStars
 WORKDIR /go/src/github.com/Luzifer/gh-NeutronStars
 
