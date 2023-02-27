@@ -4,12 +4,11 @@ go 1.18
 
 require (
 	github.com/Luzifer/rconfig v1.1.0
-	github.com/gorilla/mux v0.0.0-20150908165839-49c024275504
+	github.com/gorilla/mux v1.8.0
 	golang.org/x/net v0.0.0-20220225172249-27dd8689420f
 )
 
 require (
-	github.com/gorilla/context v0.0.0-20150820051245-1c83b3eabd45 // indirect
 	github.com/onsi/ginkgo v1.16.5 // indirect
 	github.com/onsi/gomega v1.19.0 // indirect
 	github.com/spf13/pflag v0.0.0-20160610190902-367864438f1b // indirect
