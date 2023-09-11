@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/Luzifer/rconfig v1.1.0
 	github.com/gorilla/mux v0.0.0-20150908165839-49c024275504
-	golang.org/x/net v0.14.0
+	golang.org/x/net v0.15.0
 )
 
 require (
